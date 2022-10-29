@@ -38,8 +38,11 @@ In this stage of the project, I replaced all missing value with the mean or mode
 After checking for missing values: 
 - valencia_pressure contains missing value
 - this missing values where replaced with the mode of the feature
-### Exploratory Data analysis: 
-
+### Exploratory Data analysis:
+![](images/5.png) \
+![](images/4.png)  \
+![](images/6.png)  \
+![](images/2.png)   \
 ### Feature Engineering: 
 - Dropped the column unnamed because it does not contain useful information
 - Dropped redundant features: Feature Bilbao_temp_max and Bilbao_temp_min are dropped as they are direct reflection of the Bilbao_temp.( this applies to all temperature readings from all the regions). Additionally,Madrid_weather_id, Barcelona_weather_id,Seville_weather_id and Bilbao_weather_id are dropped because they doesn’t bring any values to the prediction.
